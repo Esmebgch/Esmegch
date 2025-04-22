@@ -39,21 +39,18 @@ To get you started, we ran an Actions workflow in your new repository that, amon
    name: Post welcome comment
    on:
      pull_request:
-       types: [opened]
-   permissions:
+       types: open
+   permissions:si
      pull-requests: write
    ```
 
 1. To commit your changes, click **Commit changes**.
 1. Type a commit message, select **Commit directly to the welcome-workflow branch** and click **Commit changes**.
-1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). A separate Actions workflow in the repository (not the workflow you created) will run and will automatically replace the contents of this README file with instructions for the next step.
+1. Wait about 20 minutos , then refresh this page (the one you're following instructions from). A separate Actions workflow in the repository (not the workflow you created) will run and will automatically replace the contents of this README file with instructions for the next step.
 
 <footer>
 
----
-
 Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
